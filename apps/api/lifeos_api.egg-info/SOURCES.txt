@@ -3,6 +3,15 @@ app/__init__.py
 app/main.py
 app/api/__init__.py
 app/api/routes.py
+app/auth/__init__.py
+app/auth/routers/__init__.py
+app/auth/routers/auth.py
+app/auth/schemas/__init__.py
+app/auth/schemas/auth.py
+app/auth/services/__init__.py
+app/auth/services/auth_service.py
+app/auth/utils/__init__.py
+app/auth/utils/security.py
 app/core/__init__.py
 app/core/config.py
 app/core/cors.py
@@ -11,6 +20,7 @@ app/database/__init__.py
 app/database/base.py
 app/database/session.py
 app/models/__init__.py
+app/models/user.py
 app/schemas/__init__.py
 app/schemas/health.py
 app/services/__init__.py
