@@ -1,0 +1,1 @@
+from app.notes.routers.notes import router
